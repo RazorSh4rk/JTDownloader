@@ -9,6 +9,6 @@ Before downloading any file, please read http://www.convertmp3.io/tos/ . I am no
 This is a simple wrapper for downloading high quality audio from Youtube. Usage:
 
 ```java
-YoutubeDownloader ytd = new YoutubeDownloader("https://www.youtube.com/watch?v=totallyLegitURL", "C:/Users/notMe/");
-ytd.download();
+JTDownloader jtd = new JTDownloader("https://www.youtube.com/watch?v=totallyLegitURL", "C:/Users/notMe/");
+jtd.download();
 ```
